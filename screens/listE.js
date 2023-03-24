@@ -4,6 +4,7 @@ button,
 touchableOpacity,
 text
 } from "react";
+import {safeAreaProvider} from "react-native-safe-area-context";
 
 import e1 from "./e1";
 import e2 from "./e2";
@@ -74,7 +75,56 @@ export default class listE extends Component{
                 <View style={styles.topContainer}>
                     <button style={styles.comeBackStart} onPress={()=>this.props.navigation.navigate("start")}/>
                 </View>
-                <touchableOpacity style={styles.e1} onPress={()=>this.props.navigation.navigate("e1")}/>
+                <safeAreaProvider>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e1")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e2")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e3")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e4")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e5")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e6")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e7")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e8")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e9")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e10")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e11")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e12")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e13")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e14")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e15")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e16")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e17")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e18")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e19")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e20")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e21")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e22")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e23")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e24")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e25")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e26")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e27")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e28")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e29")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e30")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e31")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e32")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e33")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e34")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e35")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e36")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e37")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e38")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e39")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e40")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e41")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e42")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e43")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e44")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e45")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e46")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e47")}/>
+                    <touchableOpacity style={styles.e} onPress={()=>this.props.navigation.navigate("e48")}/>
+                </safeAreaProvider>
             </View>
         );
     }
@@ -86,53 +136,7 @@ const styles = StyleSheet.create({
     topContainer:{
 
     },
-    e1:{},
-    e2:{},
-    e3:{},
-    e4:{},
-    e5:{},
-    e6:{},
-    e7:{},
-    e8:{},
-    e9:{},
-    e10:{},
-    e11:{},
-    e12:{},
-    e13:{},
-    e14:{},
-    e15:{},
-    e16:{},
-    e17:{},
-    e18:{},
-    e19:{},
-    e20:{},
-    e21:{},
-    e22:{},
-    e23:{},
-    e24:{},
-    e25:{},
-    e26:{},
-    e27:{},
-    e28:{},
-    e29:{},
-    e30:{},
-    e31:{},
-    e32:{},
-    e33:{},
-    e34:{},
-    e35:{},
-    e36:{},
-    e37:{},
-    e38:{},
-    e39:{},
-    e40:{},
-    e41:{},
-    e42:{},
-    e43:{},
-    e44:{},
-    e45:{},
-    e46:{},
-    e47:{},
-    e48:{}
+     e:{borderWidth: 5, backgroundColor: "#6c6c6c",borderRadius:100},
+  
 });
 
